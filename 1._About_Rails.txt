@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-12-18T15:37:28+05:30
+
+====== 1. About Rails ======
+Created Saturday 18 December 2021
+
