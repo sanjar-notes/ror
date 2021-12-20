@@ -15,6 +15,7 @@ Created Saturday 18 December 2021
 * It also enforces other useful patterns like:
 	* DRY (Don't Repeat Yourself)
 	* CoC (convention over configuration) - lots of hidden/concise (default) features, naming and code, so less imperative.
+	* REST communication.
 
 === Features ===
 * Scaffoldings - for rapid prototyping and development.
