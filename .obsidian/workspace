@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "a946adac1617bb11",
+    "type": "split",
+    "children": [
+      {
+        "id": "03c218f657d8699d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "3. Scaffolding.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "74d609316a0f04ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "f09b86248a83d5b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77ffac199a90f809",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3d63ac1a1d7ce3cf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "51134a07413f3310",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ce51405fd3688a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "456e741492253bc2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "3. Scaffolding.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "03c218f657d8699d",
+  "lastOpenFiles": [
+    "3. Scaffolding.md",
+    "ROOT.md"
+  ]
+}
