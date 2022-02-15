@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7cf03554921a5edf",
+        "id": "4717c15d60e30bea",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Home/2._Resources/railstutorial_book_read/6._Modeling_users.md",
+            "file": "Home/2._Resources/1_railstutorial_book_read.md",
             "mode": "source"
           }
         }
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209,
-    "collapsed": true
+    "width": 209
   },
   "right": {
     "id": "51134a07413f3310",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/2._Resources/railstutorial_book_read/6._Modeling_users.md",
+                "file": "Home/2._Resources/1_railstutorial_book_read.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7cf03554921a5edf",
+  "active": "4717c15d60e30bea",
   "lastOpenFiles": [
-    "Home/2._Resources/railstutorial_book_read/6._Modeling_users.md",
+    "Home/2._Resources/1_railstutorial_book_read.md",
+    "Home/2._Resources/1_railstutorial_book_read/6._Modeling_users.md",
     "4. MVC/Model/2. Validations.md",
     "4. MVC/Model/1. What is a model ?.md",
-    "Home/2._Resources/railstutorial_book_read/5._Filling_in_the_layout.md",
-    "Home/2._Resources/railstutorial_book_read/3._Mostly_Static_Pages.md",
-    "Home/2._Resources/railstutorial_book_read/1._From_Zero_to_deploy.md",
-    "Home/2._Resources/railstutorial_book_read/2._Toy_App_-_Models,_Views.md",
+    "Home/2._Resources/1_railstutorial_book_read/5._Filling_in_the_layout.md",
+    "Home/2._Resources/1_railstutorial_book_read/3._Mostly_Static_Pages.md",
+    "Home/2._Resources/1_railstutorial_book_read/1._From_Zero_to_deploy.md",
+    "Home/2._Resources/1_railstutorial_book_read/2._Toy_App_-_Models,_Views.md",
     "Home/3._Learning_Roadmap.md",
-    "Home/2._Resources.md",
-    "Home/1._Motivation.md"
+    "Home/2._Resources.md"
   ]
 }

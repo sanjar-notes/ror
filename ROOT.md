@@ -6,8 +6,8 @@
 * [Home](./Home.md)
 	* [1. Motivation](./Home/1._Motivation.md)
 	* [2. Resources](./Home/2._Resources.md)
-		* [railstutorial book read](./Home/2._Resources/railstutorial_book_read.md)
-			* [1. From Zero to deploy](./Home/2._Resources/railstutorial_book_read/1._From_Zero_to_deploy.md)
+		* [railstutorial book read](1_railstutorial_book_read.md)
+			* [1. From Zero to deploy](1._From_Zero_to_deploy.md)
 	* [3. Learning Roadmap](./Home/3._Learning_Roadmap.md)
 
 
