@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Home/2._Resources/1_railstutorial_book_read.md",
-            "mode": "source"
+            "file": "3. Scaffolding.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/2._Resources/1_railstutorial_book_read.md",
+                "file": "3. Scaffolding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "4717c15d60e30bea",
   "lastOpenFiles": [
+    "3. Scaffolding.md",
+    "ROOT.md",
+    "Home/2._Resources.md",
+    "Home/1._Motivation.md",
+    "Home/2._Resources/2_The_Odin_Project.md",
+    "Home/3._Learning_Roadmap.md",
     "Home/2._Resources/1_railstutorial_book_read.md",
     "Home/2._Resources/1_railstutorial_book_read/6._Modeling_users.md",
     "4. MVC/Model/2. Validations.md",
-    "4. MVC/Model/1. What is a model ?.md",
-    "Home/2._Resources/1_railstutorial_book_read/5._Filling_in_the_layout.md",
-    "Home/2._Resources/1_railstutorial_book_read/3._Mostly_Static_Pages.md",
-    "Home/2._Resources/1_railstutorial_book_read/1._From_Zero_to_deploy.md",
-    "Home/2._Resources/1_railstutorial_book_read/2._Toy_App_-_Models,_Views.md",
-    "Home/3._Learning_Roadmap.md",
-    "Home/2._Resources.md"
+    "4. MVC/Model/1. What is a model ?.md"
   ]
 }
