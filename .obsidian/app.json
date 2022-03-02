@@ -2,5 +2,8 @@
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
   "showUnsupportedFiles": true,
-  "legacyEditor": false
+  "legacyEditor": false,
+  "attachmentFolderPath": "/",
+  "newFileLocation": "current",
+  "promptDelete": false
 }

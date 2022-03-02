@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "home/2._Resources/1_railstutorial_book_read/6._Modeling_users.md",
+            "file": "1._About_Rails.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209
+    "width": 644
   },
   "right": {
     "id": "51134a07413f3310",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "home/2._Resources/1_railstutorial_book_read/6._Modeling_users.md",
+                "file": "1._About_Rails.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "4717c15d60e30bea",
   "lastOpenFiles": [
+    "1._About_Rails.md",
     "home/2._Resources/1_railstutorial_book_read/6._Modeling_users.md",
     "home/2._Resources/1_railstutorial_book_read/5._Filling_in_the_layout.md",
     "home/2._Resources/1_railstutorial_book_read/3._Mostly_Static_Pages.md",
@@ -97,7 +98,6 @@
     "home/2._Resources/1_railstutorial_book_read/1._From_Zero_to_deploy.md",
     "3. Scaffolding.md",
     "ROOT.md",
-    "Home/2._Resources.md",
-    "Home/1._Motivation.md"
+    "Home/2._Resources.md"
   ]
 }
