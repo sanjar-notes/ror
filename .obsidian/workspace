@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "home/2_Resources.md",
+            "file": "0_Setup.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "home/2_Resources.md",
+                "file": "0_Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "4717c15d60e30bea",
   "lastOpenFiles": [
+    "0_Setup.md",
+    "Home.md",
     "home/2_Resources.md",
     "1_About_Rails.md",
     "home/2_Resources/1_railstutorial_book_read/6_Modeling_users.md",
@@ -96,8 +98,6 @@
     "home/2_Resources/1_railstutorial_book_read/3_Mostly_Static_Pages.md",
     "vault/4_MVC/Model/3_Associations in models.md",
     "home/2_Resources/1_railstutorial_book_read/2_Toy_App_-_Models,_Views.md",
-    "home/2_Resources/1_railstutorial_book_read/1_From_Zero_to_deploy.md",
-    "3_Scaffolding.md",
-    "ROOT.md"
+    "home/2_Resources/1_railstutorial_book_read/1_From_Zero_to_deploy.md"
   ]
 }
