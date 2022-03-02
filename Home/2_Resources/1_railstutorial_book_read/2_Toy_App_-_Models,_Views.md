@@ -2,7 +2,7 @@
 Created Monday 20 December 2021
 
 #### 1. Planning the app
-- Create an app called [toy-app-rails](https://github.com/exemplar-codes/toy_app_rails) using the same steps as in the [[1._From_Zero_to_deploy |previous]] chapter.
+- Create an app called [toy-app-rails](https://github.com/exemplar-codes/toy_app_rails) using the same steps as in the [[1_From_Zero_to_deploy |previous]] chapter.
 - This app is a Twitter clone, well kind of. It has two datum:
 	- **Users** (id: integers, email: string, name: string)
 	- **MicroPosts** (id: integer, content: text, user_id: integer). We're using `text` instead of `string` (255 chars) for flexibility in content size, if a change is needed later.
@@ -61,7 +61,7 @@ end
 #### 5. The `MicroPosts` Resource
 * Generate a scaffold using `rails generate scaffold Micropost content:text user_id:integer`, and run `rails db:migrate` to create a table.
 * After creating a micropost, a green message appears. It is a `p` tag with an `id` of 'notice'. This is called a Flash in Rails, it's a one time message from the server.
-* [[2. Validations |Validating]] models. Validation of data (models) can be done in model files. Example, to set maximum limit of 140 chars for a MicroPost, a validation can be added in `app/models/MicroPosts.rb` file, like so:
+* [[4_MVC/Model/2_Validations |Validating]] models. Validation of data (models) can be done in model files. Example, to set maximum limit of 140 chars for a MicroPost, a validation can be added in `app/models/MicroPosts.rb` file, like so:
 
 ```ruby
 class MicroPosts < ApplicationRecord
@@ -70,7 +70,7 @@ end
 ```
 
 This will create an error when the user clicks 'Create Post', if more than 140 chars have been entered. Basically, a **write** to the DB is not allowed.
-* [[3. Associations in models |Associations]]: An instance of a model could be related to many instances of other model. *This is simplied as 'a model is related to other model', for brevity.* 
+* [[4_MVC/Model/3_Associations in models |Associations]]: An instance of a model could be related to many instances of other model. *This is simplied as 'a model is related to other model', for brevity.* 
 	* Example: In this app, there are two tables - microposts and users. A user may have many microposts. Also each micropost is also related to one user. 
 	* Here, the relation is bi-directional, but it's not always the case.
 	* To specify this "association", changes are made to the model (i.e. model class), like so:
