@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Scaffolding.md",
+            "file": "home/2._Resources/1_railstutorial_book_read/6._Modeling_users.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Scaffolding.md",
+                "file": "home/2._Resources/1_railstutorial_book_read/6._Modeling_users.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "4717c15d60e30bea",
   "lastOpenFiles": [
+    "home/2._Resources/1_railstutorial_book_read/6._Modeling_users.md",
+    "home/2._Resources/1_railstutorial_book_read/5._Filling_in_the_layout.md",
+    "home/2._Resources/1_railstutorial_book_read/3._Mostly_Static_Pages.md",
+    "vault/4. MVC/Model/3. Associations in models.md",
+    "home/2._Resources/1_railstutorial_book_read/2._Toy_App_-_Models,_Views.md",
+    "home/2._Resources/1_railstutorial_book_read/1._From_Zero_to_deploy.md",
     "3. Scaffolding.md",
     "ROOT.md",
     "Home/2._Resources.md",
-    "Home/1._Motivation.md",
-    "Home/2._Resources/2_The_Odin_Project.md",
-    "Home/3._Learning_Roadmap.md",
-    "Home/2._Resources/1_railstutorial_book_read.md",
-    "Home/2._Resources/1_railstutorial_book_read/6._Modeling_users.md",
-    "4. MVC/Model/2. Validations.md",
-    "4. MVC/Model/1. What is a model ?.md"
+    "Home/1._Motivation.md"
   ]
 }
