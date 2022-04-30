@@ -31,7 +31,7 @@ Created Monday 20 December 2021
 ![](Pasted%20image%2020211220104700.png)
 
 * A controller has some closely related functions (generally 7), named as above. These are called controller '**actions**' - 4 of them generate views, the other 3 don't generate views (they stop after DB operations).
-* A controller called `ApplicationController` inherits from the `ActiveController::Base`. All other models inherit from the `ApplicationController`. Examples:
+* A controller called `ApplicationController` inherits from the `ActiveController::Base`. All other models, then, inherit from this `ApplicationController`. Examples:
 ```ruby
 class ApplicationController < ActionController :: Base
 	
