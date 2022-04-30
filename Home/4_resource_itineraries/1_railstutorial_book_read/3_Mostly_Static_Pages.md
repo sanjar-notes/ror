@@ -32,7 +32,7 @@ Controller actions (functions) when generated, are empty. In Ruby, an empty meth
 - Run the method code.
 - Render corresponding view file, which has access to instance variables from the code run (above).
 Template files for views have the extension `.html.erb` and reside in `app/views/controller_name/action_name.html.rb`.
-- There are two kinds of emrbedded Ruby constructs:
+- There are two kinds of embedded Ruby constructs:
 	1. Execute only - `<% code_here %>`
 	2. Execute and insert - `<%= code_expression_here %>`
 	All embedded Ruby parts behave like a single file.
