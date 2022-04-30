@@ -25,7 +25,7 @@ Created Monday 20 December 2021
 
 ![](Pasted%20image%2020211220102516.png)
 
-*  Also, an important note from the author: Some references indicate that the view returns the HTML directly to the browser (via a webserver such as Apache or Nginx). Regardless of the implementation details, I find it helpful to think of the controller as a central hub through which all the application’s information flows.
+* Also, an important note from the author: Some references indicate that the view returns the HTML directly to the browser (via a webserver such as Apache or Nginx). Regardless of the implementation details, I find it helpful to think of the controller as a central hub through which all the application’s information flows.
 * REST architecture and default (named) actions for a controller (`UserController` here).
 
 ![](Pasted%20image%2020211220104700.png)
