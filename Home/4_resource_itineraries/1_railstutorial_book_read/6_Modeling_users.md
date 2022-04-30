@@ -53,6 +53,7 @@ model class file doesn't store attributes. FIXME
 	- Validations are server-level conditions which must be true for a DB operation to be performed. They are server level stuff, not DB level.
 	- The constraints I'm talking about here mean uniqueness, length in case of strings, nullity, email type, password and other constraints of a field.
 	- This helps in saving only valid records to the database.
+	- Rails also provides many in built validation logic, known as 'Validation helpers'.
 - How
 	- Validations are specified in model class files. Like so:
 	```ruby
@@ -65,8 +66,8 @@ model class file doesn't store attributes. FIXME
 	end
 	```
 	- Working with validations. If a record object is invalid, it will not be saved to the DB. `robject.save` will return false.
-	- To check if an robject is valid, use `robject.valid?`
-	- To see the validation errors, use `robject.errors.full_messages`.
+	- To check if an robject is valid, use `robject.valid?`. To check invalid, use `robject.invalid?`.
+	- To see the validation errors, use `robject.errors.full_messages`, and to see if a specific attribute has failed, check `robject.errors[:attributeName]`.
 	
 ###### Email validation (regex)
 For validating email, I'm using REGEX. So in `app/model/user.rb`, add
@@ -94,3 +95,54 @@ def custom_validation_method
 end
 ```
 Note that this does require the model attribute to be made readable using `attr_accessible`.
+
+###### Adding model hooks (callbacks)
+Some additional functions which are don't required to be explicitly called (i.e. hooks) can be specified in the model files. There are many types of hooks, they are basically attached to the lifecycle of the model and its operations - validation, creation, updation, deletion, save, or loaded from database. Some examples:
+1. `before_validation`
+2. `before_create`
+3. `before_save`
+4. `before_update`
+5. `after_create`
+6. `after_save`
+7. `after_update`
+
+Note that we can write to the model names too, here.
+
+Code example - `user.rb`:
+```ruby
+before_validation :sanitize_name
+
+def sanitize_name
+	self.name = self.name.strip()
+end
+```
+
+This really enhances the bulky model, skinny controller quality of a MVC codebase, since all model level code is kept inside the model, the controller doesn't have to worry about the data at all.
+
+###### Making validations and callbacks conditional
+Validations and callbacks can be made conditional by adding an `:if` , `:unless` argument in the validation/callback call. Example:
+```ruby
+class Order < ActiveRecord::Base
+  validates :card_number, :if => :paid_with_card?
+
+  def paid_with_card?
+    payment_type == "card"
+  end
+end
+```
+Sometimes it is useful to have multiple validations use one condition, and it can be done via the `with_options` keyword. Example:
+```ruby
+class User < ActiveRecord::Base
+
+  with_options :if => :is_admin? do |admin| # condition
+    admin.validates :password, :length => { :minimum => 10 } # validation 1
+    admin.validates :email, :presence => true # validation 2
+  end
+  
+end
+```
+###### Skipping validations and model hooks (callbacks)
+There are methods in the ActiveRecord API for manipulating objects that will skip validations and callbacks. These methods should be used carefully, as they can lead to an inconsistent state of the app, or invalid data being added to the database.
+
+---
+For more info on validation_helpers and hooks, see the [official guide](https://guides.rubyonrails.org/v3.2/active_record_validations_callbacks.html).
