@@ -83,3 +83,14 @@ We want email addresses to be unique. So, "unique" validation alone won't work, 
 ```ruby
 validates :email, uniqueness: { case_insensitive : false }
 ```
+
+###### Custom validation method
+One can write a custom method for validation. One can reference the model attributes as attribute variable names, i.e. `self.email` or `self.name` etc. The syntax is simple:
+```ruby
+validates :custom_validation_method
+
+def custom_validation_method
+	return true # if valid, return false if invalid
+end
+```
+Note that this does require the model attribute to be made readable using `attr_accessible`.
