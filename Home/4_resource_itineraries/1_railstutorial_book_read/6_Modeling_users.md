@@ -97,6 +97,8 @@ end
 Note that this does require the model attribute to be made readable using `attr_accessible`.
 
 ###### Adding model hooks (callbacks)
+Note: This is not present in the book at this stage. I actually observed it the Vimeo codebase I was working on.
+
 Some additional functions which are don't required to be explicitly called (i.e. hooks) can be specified in the model files. There are many types of hooks, they are basically attached to the lifecycle of the model and its operations - validation, creation, updation, deletion, save, or loaded from database. Some examples:
 1. `before_validation`
 2. `before_create`
