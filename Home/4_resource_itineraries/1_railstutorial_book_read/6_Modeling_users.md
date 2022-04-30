@@ -88,7 +88,7 @@ validates :email, uniqueness: { case_insensitive : false }
 ###### Custom validation method
 One can write a custom method for validation. One can reference the model attributes as attribute variable names, i.e. `self.email` or `self.name` etc. The syntax is simple:
 ```ruby
-validates :custom_validation_method
+validate :custom_validation_method # note the singular 'validate'
 
 def custom_validation_method
 	return true # if valid, return false if invalid
