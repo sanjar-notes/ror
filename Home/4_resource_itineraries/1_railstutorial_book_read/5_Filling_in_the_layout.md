@@ -55,7 +55,7 @@ The location is `app/assets/`.
 - Why partials:
 	- Pages (ERb) files of an application almost always have common parts.
 	- Code not related to View: 
-		- Some parts of ERb files can be shims (small piece of code that solves nasty edge cases).
+		- Some parts of ERb files can be shims (small piece of code that solve nasty edge cases).
 		- Module imports and stuff.
 	All these parts are not needed while writing View (V in MVC) code. So it's best to abstract them away.
 	This problem is solved using "partials", which means part of (partial) code kept in a different file.
