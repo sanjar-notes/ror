@@ -7,7 +7,7 @@
 - Generate controller using scaffold, `rails generate controller StaticPages home help`, which generates a controller (based on camel case) and two actions in it. This also adds routes in `config/routes.rb`.
 
 ###### Rail command shorthands:
-![[Pasted image 20211230221517.png]]
+![[3_Mostly_Static_Pages-image-1.png]]
 	
 ###### Undoing Rails commands
 - To undo a scaffold done via `rails generate`, run `rails destroy`. Examples:	

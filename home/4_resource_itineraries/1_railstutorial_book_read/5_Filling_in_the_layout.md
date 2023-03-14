@@ -97,7 +97,7 @@ The location is `app/assets/`.
 	Install using by first adding `gem 'bootstrap-sass', '3.4.1` to `Gemfile` and then doing `bundle install`.
 - Add all Less style code to a global file called `custom.scss`, from the [book](https://railstutorial.org).
 - The site looks something like this after adding Bootstrap.
- ![[Pasted image 20220114092823.png]]
+ ![[5_Filling_in_the_layout-image-1.png]]
 
 ###### Intro to Sassy CSS
 Sass (short for 'Sassy CSS') is a syntactical improvement over regular CSS. Sass is a language that compiles down to regular CSS.
@@ -183,7 +183,7 @@ h1 {
 	```
 - Here's how Rails makes pages available without hardcoding - this minimizes impact of change. If a route changes, change the `routes.rb`, or if a link changes, just change the `link_to`. That's all, no hardcoding (although it's always available).
 
-	![[Pasted image 20220114103721.png]]
+	![[5_Filling_in_the_layout-image-2.png]]
 - Note that the `get` value is rendered as the URL in the browser's omnibox.
 - If I want to have an internal name for a really large URL. I can use an alias. Like so:
 	```ruby

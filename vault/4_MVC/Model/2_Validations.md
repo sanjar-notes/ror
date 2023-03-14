@@ -16,7 +16,7 @@ Rails does exactly this. It uses data validations at the model level.
 
 An error is raised when putting data into models, and is shown. Note that this is not view level validation still.
 
-![[assets/Pasted image 20211230143339.png]]
+![[2_Validations-image-1.png]]
  
 
 ### What

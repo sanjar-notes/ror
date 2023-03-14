@@ -23,12 +23,12 @@ Created Monday 20 December 2021
 * A detailed walkthrough of what happens in a HTTP request-response cycle.
 * In this case with the `Users` resource.
 
-![](Pasted%20image%2020211220102516.png)
+![](2_Toy_App_-_Models,_Views-image-1.png)
 
 * Also, an important note from the author: Some references indicate that the view returns the HTML directly to the browser (via a webserver such as Apache or Nginx). Regardless of the implementation details, I find it helpful to think of the controller as a central hub through which all the application’s information flows.
 * REST architecture and default (named) actions for a controller (`UserController` here).
 
-![](Pasted%20image%2020211220104700.png)
+![](2_Toy_App_-_Models,_Views-image-2.png)
 
 * A controller has some closely related functions (generally 7), named as above. These are called controller '**actions**' - 4 of them generate views, the other 3 don't generate views (they stop after DB operations).
 * A controller called `ApplicationController` inherits from the `ActiveController::Base`. All other models, then, inherit from this `ApplicationController`. Examples:
@@ -48,8 +48,8 @@ end
 
 * For models - the `ApplicationRecord` class inherits from `ActiveRecord::Base` class (this provides DB driver, parses columns to Ruby attributes, generates SQL queries). All other model inherit from the `ApplicationRecord` class. This is the same as how controllers inherit from classes provided by Rails.
 
-![[Pasted image 20211230163542.png]]
-![[Pasted image 20211230163728.png]]
+![[2_Toy_App_-_Models,_Views-image-3.png]]
+![[2_Toy_App_-_Models,_Views-image-4.png]]
 #### 4. Weaknesses of this `Users` Resource
 * No data validations - I could create users without specifying email or name or both. Not good.
 * No authentication - there's no security. Anyone can access any user, and modify it. CIA triad (Confidentiality is non-existent).
