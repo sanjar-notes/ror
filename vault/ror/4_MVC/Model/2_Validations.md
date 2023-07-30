@@ -1,11 +1,14 @@
 # Validations
 
 ### Why
+
 Data Validations are nothing but constrains on the data in a model
 These need to be enforced somehow. Examples of 'validations' are allowing non-empty strings, validating an email etc.
 
 ### How
+
 Data validations can be made at 3 logical levels:
+
 1. SQL constraints - Database dependent.
 2. Model level (class) - DB agnostic, View agnostic.
 3. View level, i.e. HTML5, JS validations at input time - backend coupled with front-end.
@@ -16,11 +19,12 @@ Rails does exactly this. It uses data validations at the model level.
 
 An error is raised when putting data into models, and is shown. Note that this is not view level validation still.
 
-![[2_Validations-image-1.png]]
- 
+![](/assets/2_Validations-image-1.png)
 
 ### What
+
 Syntax for validations - use `validates` followed by data and the validation.
+
 ```ruby
 class User
 	validates :name, presence: true
@@ -35,4 +39,5 @@ end
 ```
 
 ### Conclusion
+
 Data validations are specified in models, in Rails.

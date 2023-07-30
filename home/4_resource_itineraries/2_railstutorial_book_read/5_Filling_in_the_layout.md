@@ -3,7 +3,7 @@
 
 ###### Asset pipeline intro
 - A **single** folder for all static files ("assets"), like images, CSS and other stuff.
-The location is `app/assets/`. 
+The location is `app/assets/`.
 - It has typewise subfolders - Images are stored in `/images` and stylesheets in `/stylesheets`, etc.
 - All files here will automatically be included on the server, especially stylesheets.
 
@@ -18,7 +18,7 @@ The location is `app/assets/`.
 - Because they evaulate to strings, helper functions can be nested.
 
 ###### Links in ERb using `link_to`
-- The function `link_to` is used for inserting links. 
+- The function `link_to` is used for inserting links.
 - Why:
 	- DRY for long URLs
 	- Avoid hardcoding of links (impact of change reduction).
@@ -45,7 +45,7 @@ The location is `app/assets/`.
 - Embedded image tag helper.
 - Function template: `image_tag(src_path [, options=Hash])`. The options hash has usual image attributes like `alt`, `width` etc, all having string values.
 - As image is an asset, a unique string is appended by the server for client HTML.
-- Example: 
+- Example:
 	```HTML
 	image_tag("rails.svg", alt: "Rails logo", width: "200")
 	==> <img alt="Rails logo" width="200px" src="/assets/rails-<long string>.svg">
@@ -54,7 +54,7 @@ The location is `app/assets/`.
 ###### Partials
 - Why partials:
 	- Pages (ERb) files of an application almost always have common parts.
-	- Code not related to View: 
+	- Code not related to View:
 		- Some parts of ERb files can be shims (small piece of code that solve nasty edge cases).
 		- Module imports and stuff.
 	All these parts are not needed while writing View (V in MVC) code. So it's best to abstract them away.
@@ -97,7 +97,7 @@ The location is `app/assets/`.
 	Install using by first adding `gem 'bootstrap-sass', '3.4.1` to `Gemfile` and then doing `bundle install`.
 - Add all Less style code to a global file called `custom.scss`, from the [book](https://railstutorial.org).
 - The site looks something like this after adding Bootstrap.
- ![[5_Filling_in_the_layout-image-1.png]]
+ ![](/assets/5_Filling_in_the_layout-image-1.png)
 
 ###### Intro to Sassy CSS
 Sass (short for 'Sassy CSS') is a syntactical improvement over regular CSS. Sass is a language that compiles down to regular CSS.
@@ -106,18 +106,18 @@ It supports various constructs, including:
 - Variables - $ based variables, like BASH.
 Example
 ```SCSS
-.center {  
+.center {
 text-align: center;
 }
 
-.center h1 { 
+.center h1 {
 	margin-bottom: 10px;
 }
 
- 
+
 // becomes nested, to
 
-.center {  
+.center {
 	text-align: center;
 	h1 {
 		margin-bottom: 10px;
@@ -126,21 +126,21 @@ text-align: center;
 ```
 
 ```SCSS
-#logo {  
-	float: left;  
+#logo {
+	float: left;
 	margin-right: 10px;
 }
- 
 
-#logo:hover {  
+
+#logo:hover {
 	color: #fff; text-decoration: none;
 }
 
 // parent reference
-#logo {  
-	float: left;  
+#logo {
+	float: left;
 	margin-right: 10px;
-	
+
 	&:hover { // '&' references parent - #logo
 		color: #fff;
 		text-decoration: none; }
@@ -148,7 +148,7 @@ text-align: center;
 }
 ```
 
-```SCSS 
+```SCSS
 // variables
 h1 {
 	...
@@ -183,7 +183,7 @@ h1 {
 	```
 - Here's how Rails makes pages available without hardcoding - this minimizes impact of change. If a route changes, change the `routes.rb`, or if a link changes, just change the `link_to`. That's all, no hardcoding (although it's always available).
 
-	![[5_Filling_in_the_layout-image-2.png]]
+	![](/assets/5_Filling_in_the_layout-image-2.png)
 - Note that the `get` value is rendered as the URL in the browser's omnibox.
 - If I want to have an internal name for a really large URL. I can use an alias. Like so:
 	```ruby

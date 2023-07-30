@@ -7,14 +7,14 @@
 - Generate controller using scaffold, `rails generate controller StaticPages home help`, which generates a controller (based on camel case) and two actions in it. This also adds routes in `config/routes.rb`.
 
 ###### Rail command shorthands:
-![[3_Mostly_Static_Pages-image-1.png]]
-	
+![](/assets/3_Mostly_Static_Pages-image-1.png)
+
 ###### Undoing Rails commands
-- To undo a scaffold done via `rails generate`, run `rails destroy`. Examples:	
+- To undo a scaffold done via `rails generate`, run `rails destroy`. Examples:
 	```bash
 	rails generate controller StaticPages home help
 	rails destroy  controller StaticPages home help
-	
+
 	rails generate model User name:string email:string
 	rails destroy  model User
 	```
@@ -26,7 +26,7 @@
 	# To go to the beginning, or some other version, use
 	rails db:migrate VERSION=0
 	```
-	
+
 ###### Page template files
 Controller actions (functions) when generated, are empty. In Ruby, an empty method would mean nothing is done. But in Rails, controller actions reside in a class that inherits from `ApplicationController::Base`, so actions actually do this:
 - Run the method code.
@@ -37,7 +37,7 @@ Template files for views have the extension `.html.erb` and reside in `app/views
 	2. Execute and insert - `<%= code_expression_here %>`
 	All embedded Ruby parts behave like a single file.
 Example:
-	
+
 ```HTML.ERB
 		<% x = 2 %>
 		<p>X = <%= x * 10 %></p>
