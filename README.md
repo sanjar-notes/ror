@@ -7,4 +7,5 @@ Instructions - it's all markdown files, view on GitHub or use a tool like https:
 
 The repo also contains notes for:
 1. Ruby language
-2. Rpsec and other ror, ruby ecosystem stuff
+2. Ruby on Rails
+3. Rpsec and other ror, ruby ecosystem stuff
