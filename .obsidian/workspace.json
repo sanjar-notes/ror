@@ -1,0 +1,119 @@
+{
+  "main": {
+    "id": "284fcc76f812d22d",
+    "type": "split",
+    "children": [
+      {
+        "id": "2151e665e9003a3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8bd91c4f3ae8002",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "home/4_resource_itineraries/2_railstutorial_book_read/2_Toy_App_-_Models,_Views.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b72c45aaddc022ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7e21775d43ee4e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e271a844aa720f6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "41579e6cbb0581db",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "27d6d5a743e2fb11",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c5fccc29f572f350",
+    "type": "split",
+    "children": [
+      {
+        "id": "0edc2872f0b78554",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a8163d6b125bf73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "home/4_resource_itineraries/2_railstutorial_book_read/2_Toy_App_-_Models,_Views.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "e8bd91c4f3ae8002",
+  "lastOpenFiles": [
+    "home/4_resource_itineraries/2_railstutorial_book_read/1_From_Zero_to_deploy.md"
+  ]
+}
